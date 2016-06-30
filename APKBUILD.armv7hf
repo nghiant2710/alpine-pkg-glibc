@@ -1,4 +1,4 @@
-# Maintainer: Glider Labs <team@gliderlabs.com>
+# Maintainer: Trong Nghia Nguyen <james@resin.io>
 
 pkgname="glibc"
 pkgver="2.23"
@@ -6,7 +6,7 @@ _pkgrel="0"
 pkgrel="3"
 pkgdesc="GNU C Library compatibility layer"
 arch="armhf"
-url="https://github.com/sgerrand/alpine-pkg-glibc"
+url="https://github.com/nghiant2710/alpine-pkg-glibc"
 license="GPL"
 source="glibc-bin.tar.gz
 nsswitch.conf
@@ -47,6 +47,6 @@ i18n() {
   cp -a "$srcdir"/usr/glibc-compat/share "$subpkgdir"/usr/glibc-compat
 }
 
-md5sums="05a7b4d8db8e5c082f6c7a5e505c0c31  glibc-bin.tar.gz
+md5sums="298f63942f1d9ad73685cdbd39424d7e  glibc-bin.tar.gz
 5be984273de4203318c9c3fb0d4e9d2b  nsswitch.conf
 b4a846d17bde75e47976d972c4e067a5  ld.so.conf"
